@@ -1,0 +1,33 @@
+{
+  "name": "zeqhyr-finch",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "bin": "pkg/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "pkg": "pkg ."
+  },
+  "pkg": {
+    "scripts": "pkg/**/*.js",
+    "assets": "dist/**/*",
+    "targets": [ "node18-win-x64" ],
+    "outputPath": "pkg-dist"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "element-plus": "^2.7.7",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/shared": "^3.4.31",
+    "pkg": "^5.8.1",
+    "serve": "^14.2.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  }
+}

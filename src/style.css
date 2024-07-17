@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.el-loading-spinner .el-loading-text {
+  color: #8889ac;
+}
+
+.el-loading-spinner .circular .path {
+  stroke: #8889ac;
+}
+
+.el-checkbox.is-bordered.is-checked {
+  border-color: #8889ac;
+}
+
+.el-checkbox__input.is-checked+.el-checkbox__label {
+  color: #8889ac;
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner {
+  background-color: #8889ac;
+  border-color: #8889ac;
+}
